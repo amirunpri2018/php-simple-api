@@ -1,0 +1,30 @@
+[
+	{
+		"namaMahasiswa": "Muh Nur Yasir",
+		"nimMahasiswa": "42510049",
+		"kelas": "2B",
+		"hobi": [
+			"Membaca",
+			"Menulis"
+		],
+		"riwayatSekolah": {
+			"SMA": "SMA 21 Makassar",
+			"SMP": "SMP 30 Makassar",
+			"SD" : "SD 02 Makassar"
+		}
+	},
+	{
+		"namaMahasiswa": "Muh Nur Yasir 2",
+		"nimMahasiswa": "42510049 2",
+		"kelas": "2B 2",
+		"hobi": [
+			"Membaca",
+			"Menulis"
+		],
+		"riwayatSekolah": {
+			"SMA": "SMA 21 Makassar",
+			"SMP": "SMP 30 Makassar",
+			"SD" : "SD 02 Makassar"
+		}
+	}
+]
