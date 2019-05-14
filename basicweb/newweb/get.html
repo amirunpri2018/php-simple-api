@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(function() {  
+  $('#clickme').click(function() {
+       $.ajax({
+       url: 'ini.json',
+       dataType: 'json',
+
+       success: function(data) {
+          $.each(data, function(key, val) {   
+            $("ol").append('<li id="' + key + '">' + val + '</li>');
+          });
+
+          console.log(data.kamu);
+       }
+    });
+  });
+});
+
+</script>
+</head>
+<body>
+  
+  <h1 id="title">19. Using jQuery to retrieve JSON via AJAX</h1>
+  
+  <a href="#" id="clickme">Get JSON Data</a>
+
+  <ol></ol>
+
+</body>
+</html>

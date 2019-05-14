@@ -1,0 +1,45 @@
+body { 
+    font-family: sans-serif;
+    width:750px; 
+    margin:0 auto;
+}
+header {
+    margin-top: 10px;
+}
+nav {
+    margin-top: 10px;
+}
+article {
+    margin-top: 10px; 
+    border-top: 1px solid #ccc; 
+}
+h1 {
+    font-family: serif;
+    margin-bottom: 0;
+}
+.image-wrapper {
+    width: 100px;
+}
+.image-wrapper img {
+    width: 100%;
+}
+.image-wrapper span {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #ccc;
+}
+.image-wrapper-detail {
+    width: 300px;
+}
+.image-wrapper-detail img {
+    width: 100%;
+}
+p {
+    font-size: 14px;
+}
+footer{
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}

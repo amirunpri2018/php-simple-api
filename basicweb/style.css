@@ -1,0 +1,36 @@
+.classCss {
+	color: red;
+}
+
+.warba {
+	background-color: #ccc;
+	color: blue;
+}
+
+.imgArticle {
+	width: 250px;
+	height: 200px;
+	float: right;
+	margin-right: 50px;
+}
+
+article {
+	min-height: 210px;
+}
+
+body {
+	width: 500px;
+	margin: 0 auto;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+table thead {
+	background-color: #ccc;
+}
+
+#pesan {
+	background-color: green;
+}

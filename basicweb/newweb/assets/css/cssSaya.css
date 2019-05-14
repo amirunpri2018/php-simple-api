@@ -1,0 +1,26 @@
+.colorHead{
+	color: blue;
+}
+
+.separator-konten{
+	margin-top: 30px;
+	background-color: #eee;
+}
+
+.padding-footer{
+	padding: 20px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
